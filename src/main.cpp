@@ -7,6 +7,27 @@
 
 using namespace std;
 
+/*
+Avaliação
+Processamento do Arquivo de Entrada: 1
+Execução correta: 1
+Interfcace Textual: 1
+Documentação: 1
+Compilação automatizada: 1
+Organização em src, include, build, data: 1
+
+Comentários
+- Acho que ficou realmente muito boa a organização, o problema mesmo é a mistura de C e C++, como já falei na aula
+o ideal é entrar de cabeça em c++ e esqueçer os char* double[], etc. Futuramente a gente pode até esquecer os raw
+pointers e usar smart pointers que tem funcionalidades extra.
+- Vi que vocês criaram a classe Game com implementações inline (dentro do .h), voces sabem que isso não é uma boa
+prática e especialmente quando esse arquivo tem um cpp relacionado. Na proxima vcs podem tenter uniformizar isso melhor.
+- Como vocês tem uma implementação mais avançada, eu posso falar um pouco sobre padrões de Indentação e Styling do código.
+Por exemplo a classe RandEngine, está escrita desta na forma CamelCase, bem como seu construtor, mas os métodos estão no formato
+snake_case. Usualmente escolhemos um dos dois ou uma mistura padronizada. Pessoalmente eu gosto do coding style do Webkit
+(https://webkit.org/code-style-guidelines/), mas o melhor é ter um padrão que dê certo e faça sentido para vocês.
+*/
+
 int main(int argc, char *argv[])
 {
 	if(argc<2) 
